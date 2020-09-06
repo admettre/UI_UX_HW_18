@@ -1,0 +1,134 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+#header {
+  display: flex;
+  background-color: #3e3e44;
+  justify-content: space-between;
+  color: #e5e5e5;
+}
+#mainNav ul {
+  display: inline-flex;
+}
+#title {
+  margin-inline-start: 40px;
+}
+
+#mainNav li {
+  list-style: none;
+  margin-inline-end: 40px;
+}
+
+/* for adding link to list items */
+
+.highlight {
+  color: #2699fb;
+}
+
+#aboutCard {
+  background-color: #f2e2e5;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#aboutCard h1 {
+  margin-left: 50px;
+}
+.aboutBody {
+  width: 400px;
+  margin-left: 50px;
+}
+
+#caseStudySection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  margin: 40px;
+}
+
+.caseStudyCard {
+  background-color: #f2e2e5;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projectImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  overflow: hidden;
+}
+
+.caseStudyImage {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#socialIcons img {
+  margin-right: 16px;
+  height: 30px;
+  width: 30px;
+}
+#socialIcons a {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+/* size of icons; use margin */
+
+.tagLine {
+  align-items: flex-start;
+}
+
+#footerTagline {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2e2e5;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 50px;
+}
+@media only screen and (max-width: 600px) {
+  #caseStudySection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+    margin: 40px;
+  }
+  .aboutBody {
+    width: 300px;
+    margin-left: 25px;
+  }
+  #mainNav ul {
+    display: none;
+  }
+  #aboutCard h1 {
+    margin-left: 25px;
+  }
+  #socialIcons img {
+    margin-right: 16px;
+    height: 30px;
+    width: 30px;
+  }
+  #socialIcons {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+  }
+
+  #footerTagline {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f2e2e5;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px;
+  }
+}
