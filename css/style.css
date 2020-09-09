@@ -95,12 +95,6 @@ body {
   padding: 50px;
 }
 @media only screen and (max-width: 600px) {
-  #caseStudySection {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 24px;
-    margin: 40px;
-  }
   #mainNav ul {
     display: none;
   }
