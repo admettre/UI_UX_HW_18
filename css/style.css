@@ -99,7 +99,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 24px;
-    padding: 16px;
+    margin: 40px;
   }
   #mainNav ul {
     display: none;
