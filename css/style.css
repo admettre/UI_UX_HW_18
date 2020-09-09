@@ -107,14 +107,17 @@ body {
 
   #aboutCard h1 {
     padding: 16px;
+    margin-left: 0;
   }
 
   .aboutCard {
     padding-left: 16px;
     padding-right: 16px;
+    margin-left: 0;
   }
   .aboutBody {
     width: 100%;
+    margin-left: 0;
   }
 
   #socialIcons img {
