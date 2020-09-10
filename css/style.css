@@ -120,22 +120,10 @@ body {
     margin-left: 0;
   }
 
-  #socialIcons img {
-    padding: 10px;
-    height: 30px;
-    width: 100%;
-  }
-  #socialIcons {
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 5px;
-  }
-
   #footerTagline {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     background-color: #f2e2e5;
-    margin-left: 0;
   }
 }
